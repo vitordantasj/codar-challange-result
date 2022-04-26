@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cabecalho-logo {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #D6000D;
+}
+
+.cabecalho-navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 35px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.cabecalho-navegador li {
+    list-style-type: none;
+}
+
+.cabecalho-navegador li a:visited {
+    color: black;
+}
+
+.cabecalho-botao {
+    display: block;
+    padding: 0 auto;
+    color: white;
+    background-color: #D6000D;
+    height: 40px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.cabecalho-botao:hover {
+    background-color: #b9000c;
+    cursor: pointer;
+}
+
+
+.primeira-main-secao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imagem-videocall {
+    height: 400px;
+}
+
+.segunda-div-main-secao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragrafo-orcamento {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.titulo-orcamento {
+    color: #D6000D;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.botao-orcamento {
+    color: white;
+    background-color: #D6000D;
+    height: 40px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.botao-orcamento:hover {
+    background-color: #b9000c;
+    cursor: pointer;
+}
+
+.segunda-main-secao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imagem-coding {
+    height: 450px;
+}
+
+
+.lista-vantagens {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}    
+
+.lista-vantagens li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.lista-vantagens li i {
+    padding-right: 20px;
+    color: #D6000D;
+    font-size: 30px;
+}
+
+.terceira-main-secao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-left: 11%;
+}
+
+.paragrafo-contato {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.campo-contato {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.campo-contato input {
+    background-color: #DCDCDC;
+    outline: 0;
+    border-style: none;
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.botao-contato {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #D6000D;
+    width: 250px;    
+}
+
+.botao-contato:hover {
+    background-color: #b9000c;
+    cursor: pointer;
+}
+
+
+.quarta-main-secao {
+    display: flex;
+    flex-direction: row;
+}
+
+.avaliacao-cliente {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #DCDCDC;
+    font-size: 14px;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.circulo {
+    position: absolute;
+    left: 10px;
+    background:#D6000D;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.info-cliente {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+
+.cliente {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.empresa {
+    font-weight: 700;
+}
+
+.rodape {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    color: white;
+    background-color: black;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.rodape-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-boxes a {
+    text-decoration: underline;
+}
+
+.rodape-boxes a:visited {
+    color: white;
+}
+
+.rodape-titulo-codar {
+    font-size: 44px;
+    padding-bottom: 15px;
+}
+
+.rodape-titulos {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.rodape-paragrafos {
+    padding-bottom: 10px;
+}
+
+.rodape-box-social a i {
+    color: #D6000D;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+@media (max-width: 760px) {
+    
+    .imagem-videocall {
+        display: none;
+    }
+
+
+
+
+
+}
